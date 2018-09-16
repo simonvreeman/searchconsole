@@ -161,17 +161,10 @@ _,-'       `.     |    |  /`.   \,-'    |   \  /   |   |    \  |`.
   <title>Google Search Console</title>
   <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
   <script>
-    window.ga = window.ga || function () {
-      (ga.q = ga.q || []).push(arguments)
-    };
-    ga.l = +new Date;
-    ga('create', 'UA-2826482-26', 'auto');
-    ga('set', 'anonymizeIp', true);
-    ga('set', 'displayFeaturesTask', null);
-    ga('set', 'allowAdFeatures', false);
-    ga('send', 'pageview');
+    window.ga=function(){ga.q.push(arguments)},ga.q=[],ga.l=+new Date;
+    ga("create","UA-2826482-26","auto"),ga("set","anonymizeIp",true),ga("set","displayFeaturesTask",null),ga("set","allowAdFeatures",false),ga("send","pageview");
   </script>
-  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
   <meta name="referrer" content="no-referrer">
   <link rel="canonical" href="https://searchconsole.nl/">
   <meta name="description" content="Use Google Search Console, previously known as Webmaster Tools, to monitor Google Search results data for your properties.">
